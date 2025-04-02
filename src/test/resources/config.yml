@@ -1,0 +1,3 @@
+basicAuth:
+  username: "testUser"
+  password: "securePassword"

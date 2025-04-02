@@ -1,0 +1,4 @@
+base_urls:
+  dogapi: "https://dog.ceo/api/"
+  petstore: "https://petstore.swagger.io/v2/"
+  exchangerate: "https://api.nbp.pl/api/exchangerates/"

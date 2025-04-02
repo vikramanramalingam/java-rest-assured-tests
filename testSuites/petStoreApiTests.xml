@@ -1,0 +1,16 @@
+<suite name="Pet Store API TestSuite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="petStoreTests.UserApiTests"/>
+        </classes>
+    </test>
+</suite>

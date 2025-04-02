@@ -1,0 +1,16 @@
+<suite name="Exchange Rates API TestSuite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    
+    <test name="Exchange Rates Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="exchangeRatesApiTests.ExchangeRatesApiTests"/>
+        </classes>
+    </test>
+</suite>
